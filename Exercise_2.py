@@ -1,24 +1,24 @@
 '''6. Write a program to take two numbers from the user and perform all arithmetic operations (addition, subtraction, multiplication, division, modulus, floor division, exponentiation) on them.
 '''
 
-# num1=int(input("Enter Number : "))
-# num2=int(input("Enter Number : "))
+num1=int(input("Enter Number : "))
+num2=int(input("Enter Number : "))
 
 
 
-# print(f"Addition of {num1} and {num2} is {num1+num2}")
+print(f"Addition of {num1} and {num2} is {num1+num2}")
 
-# print(f"Subtraction of {num1} and {num2} is {num1-num2}")
+print(f"Subtraction of {num1} and {num2} is {num1-num2}")
 
-# print(f"Multiplication of {num1} and {num2} is {num1*num2}")
+print(f"Multiplication of {num1} and {num2} is {num1*num2}")
 
-# print(f"Division of {num1} and {num2} is {num1/num2}")
+print(f"Division of {num1} and {num2} is {num1/num2}")
 
-# print(f"Modulus of {num1} and {num2} is {num1%num2}")
+print(f"Modulus of {num1} and {num2} is {num1%num2}")
 
-# print(f"Floor Division of {num1} and {num2} is {num1//num2}")
+print(f"Floor Division of {num1} and {num2} is {num1//num2}")
 
-# print(f"Exponentiation of {num1} and {num2} is {num1**num2} \n\n\n")
+print(f"Exponentiation of {num1} and {num2} is {num1**num2} \n\n\n")
 
 
 
@@ -27,17 +27,17 @@ Whether a given element is in the list or not (membership)
 Whether two variables are referring to the same object (identity)
 '''
 
-# lst=[2,4,6,32,5,66,3,21,34,56,23,72]
-# num=int(input("Enter number to find in list "))
+lst=[2,4,6,32,5,66,3,21,34,56,23,72]
+num=int(input("Enter number to find in list "))
 
-# ans="Number is present in list" if num in lst else "Number is not in list\n\n\n"
-# print(ans)
+ans="Number is present in list" if num in lst else "Number is not in list\n\n\n"
+print(ans)
 
-# obj1="Hello My name is Raj"
-# obj2="Hello My name is Raj"
+obj1="Hello My name is Raj"
+obj2="Hello My name is Raj"
 
-# print(obj1 == obj2)
-# print(obj1 is obj2)
+print(obj1 == obj2)
+print(obj1 is obj2)
 
 
 '''8. Given a list: numbers = [10, 20, 30, 40, 50]
@@ -47,15 +47,15 @@ Reverse the list
 Replace 2nd element with 25
 '''
 
-# numbers = [10, 20, 30, 40, 50]
+numbers = [10, 20, 30, 40, 50]
 
-# print(numbers[:3])
+print(numbers[:3])
 
-# numbers[1]=25
-# print(numbers)
+numbers[1]=25
+print(numbers)
 
-# numbers.reverse()
-# print(numbers)
+numbers.reverse()
+print(numbers)
 
 
 '''9.Count Frequency of Elements in a List
