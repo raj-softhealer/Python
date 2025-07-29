@@ -15,10 +15,6 @@
 '''14. Take user input and convert it to integer. If the input is not a number, display "Invalid input!". If the number is negative, raise a ValueError.
 '''
 
-
-
-
-
 # try:
 #     uinpt1=int(input("Enter first number "))
 #     uinpt2=int(input("Enter second number "))
