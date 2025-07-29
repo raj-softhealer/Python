@@ -64,31 +64,60 @@ import datetime as dt
 '''17. Create a dictionary with name, age, and city. Convert it to JSON format.
 '''
 
-dict={'name':'Raj','age':22,'city':'rajkot'}
+# dict={'name':'Raj','age':22,'city':'rajkot'}
 
-import json
+# import json
 
-a=json.dumps(dict)
+# a=json.dumps(dict)
 
-print(type(a))
+# print(type(a))
 
 
 '''18. Load the JSON string below into a Python dictionary and print the value of city.
 '''
 
-dict=json.loads(a)
+# dict=json.loads(a)
 
-print(dict["city"])
+# print(dict["city"])
 
 
 '''19. Write a program to read numbers from a text file and calculate their sum. If the file does not exist, create it and ask the user to enter numbers (comma-separated). Handle all exceptions gracefully.'''
 
 
-f=open("file.txt","r+") 
-txtt=input("Enter numbers with comma separated: ")
-f.write(txtt)
 
-print(f.read())
+
+
+
+
+try:
+        
+    a=0
+    with open("file.txt",'r') as f:
+        a=f.read()
+        a=a.split(",")
+
+    ans=0
+    for i in a:
+        ans = ans+int(i)
+
+    print("Nmber of sum is ",ans)
+
+except:
+    txtt=input("Enter numbers and separate with comma ")
+    with open("file.txt",'w') as f:
+        f.write(txtt)
+
+    a=0
+    with open("file.txt",'r') as f:
+        a=f.read()
+        a=a.split(",")
+
+    ans=0
+    for i in a:
+        ans = ans+int(i)
+
+    print("Nmber of sum is ",ans)
+
 
 
 
