@@ -12,8 +12,6 @@
 # except:
 #     print("Cannot divide by zero!")
 
-
-
 '''14. Take user input and convert it to integer. If the input is not a number, display "Invalid input!". If the number is negative, raise a ValueError.
 '''
 
@@ -82,12 +80,6 @@ import datetime as dt
 
 
 '''19. Write a program to read numbers from a text file and calculate their sum. If the file does not exist, create it and ask the user to enter numbers (comma-separated). Handle all exceptions gracefully.'''
-
-
-
-
-
-
 
 try:
         
